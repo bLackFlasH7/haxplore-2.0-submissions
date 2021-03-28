@@ -3,21 +3,23 @@
 This is the official code repository for _TEAM NAME_ . This _type of application_ was developed during HaXplore 2.0, 
 the online hackathon conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
 
-### _Team Name_
+### blacklist
 
-* _Member_
-* _Member_
+* P Radha Krishna
+* Samyak Soni
+* Sayam Choudhary
+* Rakshit Agarwal
 
-#### _Project Name_
+#### Mobile shop
 
 
 #### Overview
 
-_Explain about your project, the vision behind it and how it helps enhance lifestyle, etc._
+displays and sells mobile phones
 
 #### Technology used
 
-_Write about the technologies and tools used and how they were included and used in your application._
+Spring
 
 #### Screenshots/Demo Video
 
