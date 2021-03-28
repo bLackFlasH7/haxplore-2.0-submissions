@@ -1,0 +1,260 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #4e4e50;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6f2232;
+  border-radius: 10px;
+}
+body {
+  margin: 0;
+  color:floralwhite;
+  background-color: #1a1a1d;
+}
+input {
+  border:none;
+  color:white;
+  background-color: #4e4e50;
+}
+/* input {
+  border:none;
+  color:white;
+  background-color: #4e4e50;
+} */
+select {
+  border:none;
+  color:white;
+  background-color: #4e4e50;
+}
+#sidetab {
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  width: 25%;
+  background-color: #1a1a1d;
+}
+#navbar {
+  border-bottom: #4e4e50 solid;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+
+#navbar li a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+#navbar li a.active {
+  background-color: #950740;
+  color: white;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color:#4e4e50;
+  color: white;
+}
+
+#loginbox {
+  height:150px;
+  width:600px;
+
+  position: fixed;
+  top: 40%;
+  left: 60%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+#logintable td {
+  padding:3px;
+}
+
+#mobiletable table tr td {
+  border:1px solid black;
+  text-align: center;
+  padding:2px;
+}
+
+tr.tableitems:hover {
+  background-color: #652232;
+}
+tr.tableheads td {
+background-color: #c3073f;
+  font-weight: bold;
+}
+
+#mobiletable table{
+  overflow-x:auto;
+}
+
+#purchasetable table{
+overflow-x:auto;
+}
+#purchasetable table tr td {
+border:1px solid #4e4e50;
+text-align: center;
+padding:2px;
+}
+#purchasetable table tr.tableitems td tr.description{
+width:200px;
+}
+#searchbar ul {
+list-style-type: none;
+margin: 0;
+padding: 0; 
+}
+
+#searchbar li {
+display: block;
+color: #ffffff;
+padding: 8px 16px;
+text-decoration: none;
+background-color:#1a1a1d;
+
+}
+
+#searchbar li input {
+width:100%;
+}
+
+#searchbar .input {
+width:100%;
+}
+.input {
+width:90%;
+}
+
+#admin_brand {
+  height:100px;
+  width:300px;
+
+  position: fixed;
+  top: 55%;
+  left: 55%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+#admin_brand input{
+  width:100%;
+}
+#admin_brand select{
+  width:100%;
+}
+#admin_mobile_add {
+float:left;
+height:120%;
+  width:200px;
+  position: relative;
+  left:15%;
+  top:5%;
+}
+#admin_acc_add {
+float:left;
+height:100%;
+  width:200px;
+  position: relative;
+  left:15%;
+  top:5%;
+}
+#admin_mobile_update {
+float:right;
+  height:100px;
+  width:200px;
+  position: relative;
+  left:-15%;
+  top:10%;
+}
+
+#admin_mobile_delete {
+float:right;
+  height:100px;
+  width:200px;
+  position: relative;
+  left:6%;
+  top:30%;
+}
+
+#admin_acc_delete {
+float:right;
+  height:100px;
+  width:200px;
+  position: relative;
+  left:-10%;
+  top:10%;
+}
+#admin_salesman_add {
+float:left;
+height:100%;
+  width:200px;
+  position: relative;
+  left:15%;
+  top:5%;
+}
+#admin_salesman_update {
+float:right;
+height:100%;
+  width:200px;
+  position: relative;
+  left:-15%;
+  top:5%;
+}
+#admin_salesman_delete {
+float:right;
+height:100%;
+  width:200px;
+  position: relative;
+  left:6%;
+  top:30%;
+}
+#admin_salesman_add input{
+width:100%;
+}
+
+table#description {
+width:100%;
+}
+#admin_expense {
+height:100;
+width:400px;
+margin-top: 10%;
+margin-left: 20%;
+}
+#admin_expense input {
+width:400px;
+}
+
+#sale_customer {
+float:left;
+height:100%;
+  width:200px;
+  position: relative;
+  left:15%;
+  top:5%;
+}
+
+#comparetable table tr{
+  text-align: center;
+  padding:2px;
+}
+#comparetable table tr td {
+  border:1px solid black;
+}
+#comparetable {
+  position:relative;
+  left:10%;
+  top:5%;
+}
+#accessorytable table tr td{
+    border:1px solid black;
+    text-align: center;
+    padding:2px;
+}
